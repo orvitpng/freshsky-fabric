@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+
+	"name": "FreshSky",
+	"id": "freshsky",
+	"version": "${version}",
+	"icon": "assets/freshsky/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ninja.carter.mods.freshsky.FreshSkyMod"
+		]
+	},
+	"mixins": [
+		"no_swim.mixins.json"
+	],
+
+	"depends": {
+		"fabric-lifecycle-events-v1": "*"
+	}
+}
