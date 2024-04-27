@@ -11,7 +11,9 @@
 			"ninja.carter.mods.freshsky.FreshSkyMod"
 		]
 	},
-	"mixins": [],
+	"mixins": [
+		"chat_combiner.mixins.json"
+	],
 
 	"depends": {
 		"fabric-lifecycle-events-v1": "*"

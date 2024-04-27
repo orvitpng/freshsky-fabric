@@ -1,0 +1,8 @@
+{
+	"required": true,
+	"compatibilityLevel": "JAVA_21",
+
+	"package": "ninja.carter.mods.freshsky.modules.chat_combiner.mixins",
+	"client": [
+	]
+}
