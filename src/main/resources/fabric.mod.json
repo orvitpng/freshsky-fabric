@@ -1,21 +1,21 @@
 {
-	"schemaVersion": 1,
+    "schemaVersion": 1,
 
-	"name": "FreshSky",
-	"id": "freshsky",
-	"version": "${version}",
-	"icon": "assets/freshsky/icon.png",
-	"environment": "client",
-	"entrypoints": {
-		"client": [
-			"ninja.carter.mods.freshsky.FreshSkyMod"
-		]
-	},
-	"mixins": [
-		"chat_combiner.mixins.json"
-	],
+    "name": "FreshSky",
+    "id": "freshsky",
+    "version": "${version}",
+    "icon": "assets/freshsky/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "ninja.carter.mods.freshsky.FreshSkyMod"
+        ]
+    },
+    "mixins": [
+        "chat_combiner.mixins.json"
+    ],
 
-	"depends": {
-		"fabric-lifecycle-events-v1": "*"
-	}
+    "depends": {
+        "fabric-lifecycle-events-v1": "*"
+    }
 }
